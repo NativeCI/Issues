@@ -17,7 +17,7 @@ body:
   - type: input
     attributes:
       label: Build/Project URL
-      description: URL to project/build that issue is about
+      description: URL to project/build that issue is about (make sure you set Public builds setting for the project)
       placeholder: https://console.nativeci.io/project/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
     validations:
       required: true
