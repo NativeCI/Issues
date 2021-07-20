@@ -16,7 +16,7 @@ body:
         - label: I searched for the similar issue.
   - type: textarea
     attributes:
-      label: Describtion
+      label: Description
       placeholder: Describe the feature you'd like to be added.
     validations:
       required: true
