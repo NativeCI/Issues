@@ -30,7 +30,7 @@ body:
       required: false
   - type: textarea
     attributes:
-      label: What happend?
+      label: What happened?
       placeholder: Tell us what you see!
     validations:
       required: true
