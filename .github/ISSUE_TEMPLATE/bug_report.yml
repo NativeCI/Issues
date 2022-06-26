@@ -21,13 +21,6 @@ body:
       placeholder: https://console.nativeci.io/project/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
     validations:
       required: true
-  - type: input
-    attributes:
-      label: GitHub project
-      description: if possible, provide repository name
-      placeholder: username/repo
-    validations:
-      required: false
   - type: textarea
     attributes:
       label: What happened?
