@@ -24,7 +24,7 @@ body:
       required: true
   - type: dropdown
     attributes:
-      label: What browsers are you seeing the problem on?
+      label: What browser are you seeing the problem on?
       options:
         - Firefox
         - Chrome
