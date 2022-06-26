@@ -9,11 +9,6 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
-  - type: checkboxes
-    attributes:
-      label: Please ensure, you completed the following steps
-      options:
-        - label: I searched for the similar issue.
   - type: input
     attributes:
       label: Build/Project URL
@@ -27,15 +22,6 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: true
-  - type: textarea
-    attributes:
-      label: To reproduce
-      description: Steps to reproduce the behavior
-      placeholder: |
-        1. Go to '...'
-        2. Click on '....'
-        3. Scroll down to '....'
-        4. See error
   - type: dropdown
     attributes:
       label: What browsers are you seeing the problem on?
