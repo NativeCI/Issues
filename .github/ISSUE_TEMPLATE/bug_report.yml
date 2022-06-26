@@ -16,15 +16,15 @@ body:
       placeholder: https://console.nativeci.io/project/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
     validations:
       required: true
-  - type: textarea
-    attributes:
-      label: What happened?
-      placeholder: Tell us what you see!
-    validations:
-      required: true
   - type: input
     attributes:
       label: What browser are you seeing the problem on?
       placeholder: Chrome
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: What happened?
+      placeholder: Tell us what you see!
     validations:
       required: true
