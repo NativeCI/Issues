@@ -24,6 +24,7 @@ body:
       required: true
   - type: dropdown
     attributes:
+      id: version
       label: What browser are you seeing the problem on?
       options:
         - Firefox
