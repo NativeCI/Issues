@@ -22,14 +22,9 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: true
-  - type: dropdown
+  - type: input
     attributes:
       label: What browser are you seeing the problem on?
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Edge
-        - Other
+      placeholder: Chrome
     validations:
       required: true
